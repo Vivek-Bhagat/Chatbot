@@ -55,7 +55,7 @@ vector_store = QdrantVectorStore(client=client, collection_name="collection")
 # %%
 %env GOOGLE_API_KEY = "your-api-key"
 import os
-GOOGLE_API_KEY = "AIzaSyADCs767ekrHJ4v-iScQEg1azVSp-fFeuY" # add your GOOGLE API key here
+GOOGLE_API_KEY = "your key" # add your GOOGLE API key here
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 # %%
